@@ -54,7 +54,6 @@ const RocketComponent: FC<RocketComponentProps> = ({
                     },
                 ],
                 complete: () => {
-                    console.log('Rocket reached the top right!');
                     setAnimationCompleted(true);
                     onLaunchComplete(); // notify parent component that the animation is complete
                 },
