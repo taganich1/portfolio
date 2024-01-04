@@ -33,8 +33,8 @@ const Navbar: FC = () => {
                 </div>
 
                 <div className="flex flex-row gap-5">
-                    {socials.map((social) => (
-                        <a href={social.link}>
+                    {socials.map((social, index) => (
+                        <a key={`experience-${index}`} href={social.link}>
                             <Image
                                 src={social.src}
                                 alt={social.name}
