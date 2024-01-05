@@ -13,12 +13,12 @@ const Hero: FC = () => {
                 muted
                 playsInline
                 loop
-                className="rotate-180 absolute top-[-355px] left-0 z-[1] w-full h-full object-cover"
+                className="rotate-180 absolute top-[-355px] left-0 z-[1] w-full h-full object-cover min-[2123px]:object-fill max-md:hidden"
             >
                 <source src="/assets/blackhole.webm" type="video/webm" />
             </video>
             <HeroContent />
-            <div className="absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center">
+            <div className="absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center max-[637px]:hidden">
                 <motion.a href="#about" className="z-40">
                     <div className="w-[35px] h-[64px] rounded-3xl border-4 flex justify-center items-start p-2">
                         <motion.div

@@ -21,7 +21,7 @@ const HeroContent: FC = () => {
         <motion.div
             initial="hidden"
             animate="visible"
-            className="flex flex-row items-center justify-center px-20 mt-36 w-full z-[20]"
+            className="flex flex-row items-center justify-center px-10 md:px-20 mt-36 w-full z-[20]"
         >
             {launchRocket && (
                 <Rocket
@@ -42,7 +42,7 @@ const HeroContent: FC = () => {
                 </motion.div>
                 <motion.div
                     variants={slideInFromLeft(0.5)}
-                    className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
+                    className="flex flex-col gap-6 mt-6 text-3xl md:text-6xl  text-bold text-white max-w-[600px] w-auto h-auto"
                 >
                     Hello there!
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
@@ -51,7 +51,7 @@ const HeroContent: FC = () => {
                 </motion.div>
                 <motion.p
                     variants={slideInFromLeft(0.8)}
-                    className="text-lg text-gray-400 my-5 max-w-[600px]"
+                    className="md:text-lg text-sm text-gray-400 my-5 max-w-[600px]"
                 >
                     My two-year journey in web development is marked by exciting
                     challenges and rewarding experiences. Dedicated to crafting

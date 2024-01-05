@@ -114,7 +114,7 @@ const Contact: FC = () => {
 
     return (
         <div
-            className={`xl:mt-2 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden px-10`}
+            className={`xl:mt-2 flex xl:flex-row flex-col-reverse gap-20 overflow-hidden max-[1279px]:px-20`}
         >
             <ToastContainer
                 position="top-center"

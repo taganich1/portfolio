@@ -36,7 +36,7 @@ const ServiceCard: FC<ServiceCardProps> = ({ index, title, icon }) => (
 
 const About: FC = () => {
     return (
-        <div className="mt-5 mb-20 z-20 px-20">
+        <div className="mt-5 mb-20 z-20 px-10 md:px-20">
             <motion.div className="z-20" variants={textVariant(0.8)}>
                 <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
                     Introduction
