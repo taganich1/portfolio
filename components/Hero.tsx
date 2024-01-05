@@ -11,6 +11,7 @@ const Hero: FC = () => {
             <video
                 autoPlay
                 muted
+                playsInline
                 loop
                 className="rotate-180 absolute top-[-355px] left-0 z-[1] w-full h-full object-cover"
             >

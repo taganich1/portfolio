@@ -36,8 +36,8 @@ const ServiceCard: FC<ServiceCardProps> = ({ index, title, icon }) => (
 
 const About: FC = () => {
     return (
-        <div className="mt-5 mb-20 z-20">
-            <motion.div className="ml-[100px] z-20" variants={textVariant(0.8)}>
+        <div className="mt-5 mb-20 z-20 px-20">
+            <motion.div className="z-20" variants={textVariant(0.8)}>
                 <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
                     Introduction
                 </p>
@@ -47,7 +47,7 @@ const About: FC = () => {
             </motion.div>
             <motion.p
                 variants={fadeIn('', '', 0.1, 1)}
-                className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] ml-[100px]"
+                className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
                 I&apos;m a skilled software developer with experience in
                 TypeScript and JavaScript, and expertise in frameworks like
