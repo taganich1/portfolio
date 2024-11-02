@@ -33,7 +33,7 @@ const services = [
         icon: ovgu,
     },
     {
-        title: 'Currently working in UniNow',
+        title: 'Currently working in UniNow GmbH',
         icon: uninow,
     },
 ];

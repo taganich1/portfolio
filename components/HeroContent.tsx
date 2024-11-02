@@ -30,16 +30,20 @@ const HeroContent: FC = () => {
                 />
             )}
             <div className="w-full h-full flex flex-col gap-5 justify-center m-auto text-start">
-                <motion.div
+                <motion.a
+                    href="https://savelife.in.ua/en/"
                     variants={slideInFromTop}
-                    className="Welcome-box py-[15px] px-4 border border-[#7042f88b] opacity-[0.9] "
+                    className="Welcome-box py-[15px] px-4 border border-[#7042f88b] opacity-[0.9] bg-gradient-to-r from-purple-500 to-cyan-500"
                 >
-                    <span className="text-[#b49bff] mr-[10px]"> 🇺🇦</span>
-
-                    <h1 className="Welcome-text text-[13px]">
-                        Привіт! (Hello in Ukrainian)
+                    <h1 className="Welcome-text text-[13px] bg-amber-50">
+                        <Image
+                            src="/assets/img.png"
+                            alt=""
+                            width={100}
+                            height={40}
+                        />
                     </h1>
-                </motion.div>
+                </motion.a>
                 <motion.div
                     variants={slideInFromLeft(0.5)}
                     className="flex flex-col gap-6 mt-6 text-3xl md:text-6xl  text-bold text-white max-w-[600px] w-auto h-auto"
